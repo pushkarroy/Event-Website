@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&family=Poppins:ital,wght@1,300&display=swap');
 
 :root{
@@ -253,6 +252,10 @@ body{
     margin: 5rem 1rem;
     color: #fff;
 }
+.gallery .box-container .box .icons a i{
+    background-color: aqua;
+    color: red;
+}
 .gallery .box-container .box .icons a:hover{
     color: var(--main-color);
 }
@@ -296,9 +299,10 @@ font-size: 4rem;
 }
 
 .review .box{
-    border-radius: .5rem;
+    border-radius: 2.5rem;
     background: #333;
-    padding: 2rem;
+    padding: 5rem;
+    margin: 5px 5px;
     position: relative;
 }
 .review .box .fa-quote-right{
@@ -311,13 +315,13 @@ font-size: 4rem;
 .review .box .user{
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 5rem;
     padding-bottom: 1rem;
 }
 .review .box .user img{
     height: 7rem;
     width: 7rem;
-    border-radius: 50%;
+    border-radius: 75%;
     object-fit: cover;
 }
 .review .box .user h3{
