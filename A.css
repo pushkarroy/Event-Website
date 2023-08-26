@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&family=Poppins:ital,wght@1,300&display=swap');
 
 :root{
@@ -68,6 +69,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 9%;
+    background-color: #444;
 }
 
 .header .logo{
@@ -93,12 +95,8 @@ body{
     color: #fff;
     cursor: pointer;
     display: none;
-}
-.home .content{
     text-align: center;
-    padding-top: 6rem;
-    margin: 2rem auto;
-    max-width: 70rem;
+ float: right;
 }
 .home .content h3{
     color: #fff;
