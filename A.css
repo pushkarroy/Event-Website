@@ -1,5 +1,4 @@
 
-
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&family=Poppins:ital,wght@1,300&display=swap');
 
 :root{
@@ -104,8 +103,10 @@ body{
     color: #fff;
     font-size: 4.5rem;
     text-transform: uppercase;
+    margin-top: 7.5vh;
 }
 .home .content h3 span{
+    height: 25vh;
     color: var(--main-color);
     text-transform: uppercase;
 }
@@ -514,4 +515,4 @@ font-size: 4rem;
         width: 100%;
     }
     
-} 
+}  
